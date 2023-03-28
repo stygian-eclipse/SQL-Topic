@@ -28,3 +28,6 @@ GRANT ALL PRIVILEGES ON modx_db_v303_utf8mb3.* TO 'rave'@'localhost' IDENTIFIED 
 
 * Show database information schema
 SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE table_type = 'BASE TABLE';
+
+* Show database collation
+SELECT @@character_set_database, @@collation_database; 
