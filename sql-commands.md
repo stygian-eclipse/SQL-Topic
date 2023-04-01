@@ -31,3 +31,8 @@ SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE table_type = 'BASE TABLE'
 
 * Show database collation
 SELECT @@character_set_database, @@collation_database; 
+
+******************************** SQLcl ********************************
+
+* Start SQLcl
+SQLcl
